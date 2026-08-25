@@ -114,13 +114,16 @@ If you can not see the .env file, you can ask Bob to visable it for you, since i
 Hidden files (those starting with .) are not shown by default in most file explorers, but here's where to find them if you want to do it mannually:
 
 In the Terminal
-ls -la         # list all files including hidden ones
-ls -la ~       # in your home directory
+
+ls -la         ( list all files including hidden one).   
+
+ls -la ~       (in your home directory).    
 
 ---
 ## 3d. Fill In Your Real Credentials
 
 We will provide you API keys and Project IDs, you don't have to create one by yourself.
+You can just copy paste from the doc that we provided and replace the default ones
 
   👉 **[If you don't remember where to get your project id and API key →](prerequisite.md)**
 ---
