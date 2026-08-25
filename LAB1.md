@@ -114,6 +114,8 @@ If you can not see the .env file, you can ask Bob to visable it for you, since i
 ---
 ## 3d. Fill In Your Real Credentials
 
+We will provide you API keys and Project IDs, you don't have to create one by yourself.
+
   👉 **[If you don't remember where to get your project id and API key →](prerequisite.md)**
 ---
 You should be able to find you crendentials from your IBM cloud
