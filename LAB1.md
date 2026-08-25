@@ -197,7 +197,7 @@ curl -s -o /dev/null -w "%{http_code}" -X POST "https://iam.cloud.ibm.com/identi
 ### 4d. Test the watsonx.ai connection ( Or ask Bob to test it for you)
  
 ```bash
-python3 -c "from model_gateway import invoke_llm; print(invoke_llm('Say hello in one sentence.', max_new_tokens=50))"
+python3 -c "from model_gateway import invoke_llm; print(invoke_llm('Say hello in one sentence.', max_new_tokens=30))"
 ```
  
 **Expected:** LLM replies with a sentence ✅
