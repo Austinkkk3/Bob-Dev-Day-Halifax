@@ -104,7 +104,7 @@ Help me create an .env file contains following requirments
 API_KEY=paste_your_api_key_here
 PROJECT_ID=paste_your_project_id_here
 CLOUD_URL= paste_your_URL_here For example: https://ca-tor.ml.cloud.ibm.com
-LLM_NAME=llama-3-3-70b-instruct
+LLM_NAME=meta-llama/llama-3-3-70b-instruct
 ```
 
 <img width="948" height="684" alt="Screenshot 2026-06-28 at 2 37 38 PM" src="images/12-lab1-env-file.png" />
