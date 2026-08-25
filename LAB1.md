@@ -111,6 +111,12 @@ LLM_NAME=llama-3-3-70b-instruct
 You should see the four lines above.
 If you can not see the .env file, you can ask Bob to visable it for you, since it's a hidden file (starts with.), it won't show up in Finder by default.
 
+Hidden files (those starting with .) are not shown by default in most file explorers, but here's where to find them if you want to do it mannually:
+
+In the Terminal
+ls -la         # list all files including hidden ones
+ls -la ~       # in your home directory
+
 ---
 ## 3d. Fill In Your Real Credentials
 
