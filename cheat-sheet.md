@@ -24,7 +24,7 @@ If something breaks, start here before anything else.
 ```env
 API_KEY=your_ibm_cloud_api_key_here
 PROJECT_ID=your_watsonx_project_id_here
-CLOUD_URL=https://us-south.ml.cloud.ibm.com
+CLOUD_URL=https://ca-tor.ml.cloud.ibm.com
 LLM_NAME=ibm/granite-3-8b-instruct
 ```
 
