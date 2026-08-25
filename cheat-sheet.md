@@ -263,7 +263,7 @@ from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.document_converter import DocumentConverter, PdfFormatOption
 
 pipeline_options = PdfPipelineOptions()
-pipeline_options.do_ocr = False
+pipeline_options.do_ocr = True
 pipeline_options.do_table_structure = True
 
 converter = DocumentConverter(
