@@ -1,6 +1,6 @@
-# Prerequisites — AI Government Expense Tracker
+# Prerequisites — AI Expense Tracker
 
-Complete prerequisites guide for the AI Government Expense Tracker lab.
+Complete prerequisites guide for the AI Expense Tracker lab.
 
 ---
 
