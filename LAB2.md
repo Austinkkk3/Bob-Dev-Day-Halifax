@@ -42,7 +42,7 @@ In Bob's Explorer panel, click on `app.py` to open it.
 
 ### 1b. Paste this prompt into Bob
 ```
-I have an existing Streamlit app called app.py for an AI Government Expense Tracker.
+I have an existing Streamlit app called app.py for an AI Expense Tracker.
 I want to add budget tracking features. Modify app.py to include the following:
 
 Budget settings UI (add this in the sidebar using st.sidebar):
