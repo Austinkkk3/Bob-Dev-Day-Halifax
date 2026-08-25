@@ -125,9 +125,7 @@ ls -la ~       (in your home directory).
 We will provide you API keys and Project IDs, you don't have to create one by yourself.
 You can just copy paste from the doc that we provided and replace the default ones
 
-  👉 **[If you don't remember where to get your project id and API key →](prerequisite.md)**
----
-You should be able to find you crendentials from your IBM cloud
+
 ## Step 4: Generate `model_gateway.py` with Bob 
 
 <img width="1067" height="768" alt="Screenshot 2026-06-23 at 2 18 25 PM" src="images/13-lab1-model-gateway.png" />
