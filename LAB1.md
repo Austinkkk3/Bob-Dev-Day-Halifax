@@ -11,7 +11,7 @@ This guide assumes no prior context. Follow every step to build a working applic
 ✅ Upload up to 10 PDF receipts (office supplies, equipment, services, utilities).     
 ✅ Auto-detect document type from filename.      
 ✅ Extract structured expense data using IBM watsonx.ai LLM.    
-✅ Display results in a table with 8 columns.       
+✅ Display results in a table with 7 columns.       
 ✅ Show 4 metric cards (Files Processed, Line Items, Total Amount, Avg Confidence).        
 ✅ Generate 4 interactive Plotly charts (by vendor, by category, by document type).   
 ✅ Export data to CSV.    
@@ -30,8 +30,6 @@ Before starting this lab, make sure you have completed all the prerequisites:
 This includes:
 - Installing Python 3.10-3.13
 - Installing IBM Bob
-- Creating IBM Cloud account and IBMid
-- Getting your watsonx.ai credentials (API Key, Project ID, Cloud URL)
 
 Once you have your credentials ready, continue below to start building!
 
@@ -56,7 +54,7 @@ ai-expense-tracker/
 
 The first step to start is to create an empty folder and name it as ai-expense-tracker
 
-Open Bob, and open the new folder that uyou just created and paste this prompt:
+Open Bob, and open the new folder that you just created and paste this prompt:
 
 ```
 I have ai-expense-tracker opened.
@@ -93,13 +91,13 @@ After Bob creates the requirements.txt file, install the packages:
 ```bash
 pip3 install -r requirements.txt
 ```
-Or you can talk to Bob in plain English "Install all the requirments for me"
+Or you can talk to Bob in plain English "Install all the requirements for me"
 ---
 
 ## Step 3: Create `.env` File
 First, make sure you are in your project folder, then create the '.env' (note the dot at the beginning) file, paste these contents: 
 ```bash
-Help me create an .env file contains following requirments
+Help me create an .env file contains following requirements
 
 API_KEY=paste_your_api_key_here
 PROJECT_ID=paste_your_project_id_here
@@ -113,7 +111,7 @@ LLM_NAME=meta-llama/llama-3-3-70b-instruct
 You should see the four lines above.
 If you can not see the .env file, you can ask Bob to visible it for you, since it's a hidden file (starts with.), it won't show up in Finder by default.
 
-Hidden files (those starting with .) are not shown by default in most file explorers, but here's where to find them if you want to do it mannually:
+Hidden files (those starting with .) are not shown by default in most file explorers, but here's where to find them if you want to do it manually:
 
 In the Terminal
 
@@ -644,7 +642,7 @@ The app opens automatically at **http://localhost:8501**.
 
 1. **Upload PDFs**: Click the file uploader and select up to 10 expense receipt PDFs
 2. **Submit**: Click "⚡ Submit" to extract data (takes 10–30 seconds per file)
-3. **View Results**: See table with 8 columns and 4 metric cards
+3. **View Results**: See table with 7 columns and 4 metric cards
 4. **Analyze**: Click "📊 Analyze" to generate 3 interactive charts
 5. **Summarize**: Click "📝 Generate Summary" to get an AI-written summary of your expenses
 6. **Export**: Click "⬇️ Export CSV" to download the extracted data

@@ -25,7 +25,7 @@ If you don't have Python installed, follow these steps:
 4. When done, open Terminal and run `python3 --version` to confirm.
 
 **Windows**:
-1. Go to [python.org/downloads](https://python.org/downloads, Download and install Python Install Manager.
+1. Go to [python.org/downloads](https://python.org/downloads) Download and install Python Install Manager.
 2. Open Python Install Manager when installation is complete.
 3. In the Python Install Manager window, run:
 
